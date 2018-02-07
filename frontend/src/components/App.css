@@ -1,0 +1,189 @@
+html {
+  margin: 0;
+  padding: 0;
+  }
+body { 
+  font: 75% georgia, sans-serif;
+  line-height: 1.88889;
+  color: grey; 
+  background: #fff url(http://csszengarden.com/001/blossoms.jpg) no-repeat bottom right; 
+  margin: 0; 
+  padding: 0;
+  text-align: left;
+  margin-left: 1em;
+  }
+p { 
+  margin-top: 0; 
+  text-align: left;
+  width: 70%;
+  }
+h3 { 
+  font: italic normal 1.4em georgia, sans-serif;
+  letter-spacing: 1px; 
+  margin-bottom: 0; 
+  color: grey;
+  }
+a:link { 
+  font-weight: bold; 
+  text-decoration: none; 
+  color: grey;
+  }
+a:visited { 
+  font-weight: bold; 
+  text-decoration: none; 
+  color: grey;
+  }
+a:hover, a:focus, a:active { 
+  text-decoration: underline; 
+  color: grey;
+  }
+
+.App { 
+  background: url(https://s3-sa-east-1.amazonaws.com/gerardor/varios/black-background.jpg) top left; 
+  padding: 10%;  
+  margin: 0; 
+  position: relative;
+  }
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+
+
+.errMsg {
+  color: red;
+  visibility: hidden;
+}
+
+.showErrMsg {
+  visibility: visible;
+}
+
+.postBody, .postDate, .commentBody, .commentDate {
+  width: 70%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: black;
+  font-family: sans-serif;
+  color: white;
+}
+
+p {
+  font-size: .8em;
+}
+
+div.header h1 {
+  font-size: 1.2em;
+  text-align: left;
+  margin-left: .5em;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.categoryButton {
+  padding: 10px;
+  margin: 5px;
+  font-size: 12px;
+  color:white;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  background: #454545;
+  border: 0;
+  border-bottom: 2px solid #2f2e2e;
+  cursor: pointer;
+  -webkit-box-shadow: inset 0 -2px #2f2e2e;
+  box-shadow: inset 0 -2px #2f2e2e;
+  float: left;
+}
+
+.categoryButton a {
+  color: white !important;
+  text-decoration: none;
+}
+
+.categoryButton:active {
+  top: 1px;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.categoryButton.selected {
+  border: 1px solid red;
+}
+
+.container:after { 
+  content: "\0020"; 
+  display: block; 
+  height: 0; 
+  clear: both; 
+  visibility: hidden;
+}
+
+.postListItem {
+  text-align: left;
+  margin: 1em;
+}
+.postListItem h1{
+  font-size: 1em;
+}
+
+button {
+  height: 2em;
+  padding-left: .3em;
+  font: 75% georgia, sans-serif;
+  color: black;
+  cursor: pointer;
+}
+
+button a:link {
+  font: 75% georgia, sans-serif;
+  color: black;
+  font-weight: normal;
+  font: inherit;
+}
+
+button a:hover {
+  text-decoration: none;
+}
+
+input, textarea, select {
+  width : 200px;
+
+}
+
+textarea{
+  height: 5em;
+}
+
+form p {
+  margin: 0;
+  padding: 0;
+}
+
+.btn_create {
+  color: red !important;
+}
